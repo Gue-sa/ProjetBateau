@@ -79,8 +79,6 @@ class AIS:
             self.antenna1.send(misc.encode_message(msg))
         elif channel == "88B":
             self.antenna2.send(misc.encode_message(msg))
-            
-    def 
     
     def dev_menu(self) -> None:
         while True:
