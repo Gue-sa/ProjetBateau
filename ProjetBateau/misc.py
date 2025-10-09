@@ -35,7 +35,7 @@ def str_to_bin(msg: str) -> str:
 
 
 def bin_to_bytes(bin: str) -> bytes:
-    pass
+    ...
 
 
 def bytes_to_bin(msg: bytes) -> str:
